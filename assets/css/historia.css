@@ -55,7 +55,7 @@ main{
     background-color: #161616;
     padding: 20px;
 }
-h1,p{
+h1,p,span{
     color: #fff;
 }
 .banner{
