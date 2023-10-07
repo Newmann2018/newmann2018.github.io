@@ -50,6 +50,7 @@ nav ul li a:hover {
     transition: 0.5s ease-in-out;
 }
 /*heder fim*/
+/*inicio do main*/
 main{
     width: 100vw;
     height: 250vh;
@@ -63,19 +64,6 @@ main{
 h1,p{
     color: red;
 }
-/*.banner{
-    width:80wh;
-    height: 40vh;
-    background-color: #004d40;
-}*/
-/*#banner {
-    background-image: url(../img/banner.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 370px;
-    margin-bottom: 20px;
-}*/
 .container{
     width: 100wh;
     display: flex;
@@ -83,19 +71,14 @@ h1,p{
     justify-content: center;
     flex-direction: column;
 }
-
-/*.container section img{
-    width: 1800px;
-    height: 1600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    margin-bottom: 20px;
-}*/
+/*fim do main*/
+/*inicio dp footer*/
 footer {
     background-color: #004d40;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
+/*fim do footer*/
+
+/*inicio da responsividade*/

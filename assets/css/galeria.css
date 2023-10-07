@@ -52,7 +52,6 @@ nav ul li a:hover {
 /*heder fim*/
 main{
     width: 100vw;
-    height: 250vh;
     background-color: #161616;
     padding: 20px;
 }
@@ -131,8 +130,8 @@ footer {
 .container .card
 {
     position: relative;
-    width: 320px;
-    height: 420px;
+    width: 500px;
+    height: 450px;
     margin: 15px;
     overflow: hidden;
 }
@@ -143,7 +142,7 @@ footer {
     width:  0px;
     height: 0px;
     transform: translate(-50%, -50%);
-    border-radius: 50%;
+    border-radius: 15%;
     opacity: 0.95;
     background-color: #9c27b0;
     z-index: 1;
