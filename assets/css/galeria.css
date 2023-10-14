@@ -20,10 +20,12 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background:#004d40;
 }
 nav .logo{
     width: 200px;
     height: 100px;
+    background-color: white;
     background-image: url(../img/faqi-faculdade-qi-brasil.webp);
     background-repeat: no-repeat;
     background-position: center;
