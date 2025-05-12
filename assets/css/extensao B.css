@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100wh;
+    background-color: #f0f0f0;
+}
+/*inicio*/
+header{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#004d40; 
+}
+nav .logo{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    background-image: url(../img/faqi-faculdade-qi-brasil.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 7px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    margin: 0,15px;
+    padding:15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: red;
+    font-size: 30px;
+
+}
+nav ul li a:hover {
+    color: grey;
+    transition: 0.5s ease-in-out;
+}
+/*heder fim*/
+/*inicio do main*/
+main{
+    width: 100vw;
+    height: 250vh;
+    background-color: #fff;
+    padding: 20px;
+    background-image: url(../img/indio\ veio.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1,p{
+    color: red;
+}
+.container{
+    width: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*fim do main*/
+/*inicio dp footer*/
+footer {
+    background-color: #004d40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/*fim do footer*/
+
+/*inicio da responsividade*/

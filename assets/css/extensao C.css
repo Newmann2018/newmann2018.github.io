@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+header {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    background-image: url(../img/logo\ QI.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90px;
+    height: 90px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0187a7;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
+.banner #banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/banner\ C.png);
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
+main .section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .direita{
+    width: 50%;
+    height: 520px;
+    background-color: #8b0d0d;
+    background-image: url(../img/img\ extensao\ C\ 1.jpeg);
+}
+main .esquerda{
+    width: 50%;
+    height: 520px;
+    background-color: #8b0d0d;
+    background-image: url(../img/img\ extensao\ C\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+
+
+/*** FEITO POR: Newmann Naba Costa e Jader Porto ***/
